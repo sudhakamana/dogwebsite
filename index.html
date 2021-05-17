@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Bootstrap Website
+    </title>
+    <!--Boootstrap cdn-->
+    <link rel=" stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--css style sheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--font styles-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Fontawesome for icons url -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <!--Jquery, js cdns for working with bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid price">
+        <!--Navbar is a class name 
+        navbar-expand-lg is use for responsive collpasing lg|xl|md|sm
+        navbar-light & navbar-dark are you to hightlight background color of nav bar-->
+        <nav class="navigation navbar navbar-expand-lg navbar-light">
+            <!--Navbar-brand refers to brand which highlight thne logo exp tindog-->
+            <a class="navbar-brand" href="">TinDog</a>
+            <!--data target need to id same names navbar-toggler is responsive bottom in the small screens-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar-collapse refer to collapse the entire ul section list into small toggler icon-->
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <!--ml-auto will move ul div to right last of the page which reference to margin-auto-->
+                <ul class="navbar-nav ml-auto">
+                    <!--Nav-item refers to contact and nav-link refers to it need to be created in link format-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <header class="bg-image">
+        <h2>Vet Clinic</h2>
+        <h1>True Friend.</h1>
+        <button type="button" class="btn btn-dark"> <i class="fa fa-android"></i> Download</button>
+        <button type="button" class="btn btn-dark"><i class="fa fa-apple"></i> Download</button>
+        <img class="smallpuppy" src="images/image-3.png" alt="puppy for Sale">
+    </header>
+
+    <div class="feature-dog">
+        <div class="">
+            <section class="clean-dog row ml-auto">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h1 class="clean">
+                        Clean It Right 'Round The Pets
+                    </h1>
+                </div>
+                <div class="heart col-lg-4 col-md-6 col-sm-12">
+                    <p>
+                        <img class="img" src="images/heart.jpg" alt="heart image" height="50px" width="50px"><br>
+                        Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="images/image-1.jpg" alt="Dog & Human Relationship" class="img-responsive" width="100%">
+                </div>
+            </section>
+        </div>
+
+        <div class="">
+            <section class="dog-1 row ml-auto">
+                <div class="col-lg-4 col-md-12 ">
+                    <p>
+                        <img src="images/6iryqLMiK.gif" alt="heart image" height="50px" width="50px"><br>
+                        Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 ">
+                    <img class="img" src="images/dog.jpg" alt="Dog image" width="100%">
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <p>
+                        <img src="images/cat.png" alt="heart image" height="50px" width="50px"><br>
+                        Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="cat-image row">
+        <h2>
+            Cat Stories, News,<br> Tips & Tricks
+            <br><span>TIPS FOR LIFE WITH CATS</span>
+        </h2>
+    </section>
+
+    <section class="container-fluid vetclinic row">
+        <div class="vet col-lg-4 col-md-12">
+            <h3>VET CLINIC</h3>
+            <h2>Rescue a Pet</h2>
+            <p>Since newly abandoned pups are competing with each other for human heartstrings, evolution says they
+                should
+                be most adorable around six and 11 weeks.</p>
+        </div>
+        <div class="humanimage col-lg-4 col-md-12">
+            <img src="images/doghuman.jpg" alt="Dog human Relationship" class="img-responsive" width="100%">
+        </div>
+        <div class="humanimage  col-lg-4 col-md-12">
+            <img src="images/doghuman2.jpg" alt="Dog human Relationship" class="img-responsive" width="100%">
+        </div>
+    </section>
+
+    <section class="dogtraining row container-fluid">
+        <div class="training col-lg-5 col-md-12">
+            <h4>DOG TRAINING</h4>
+            <h1>We use humane, natural, dog training methods</h1>
+        </div>
+        <div class="trainingimage col-lg-4 col-md-12">
+            <img src="images/dogtrainig.jpg" alt="dog -training" class="img-responsive" width="100%">
+        </div>
+        <div class="approach col-lg-3 col-md-12">
+            <p>
+                Positive Dog Training is a rewards-based approach to teaching pet parents how dogs think, learn and
+                communicate. We focus on rewarding the behaviors we like to encourage appropriate dog behavior in the
+                real world.
+            </p>
+            <div class="navbar navbar-expand-lg">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid row basicdog">
+        <div class=" basictraining col-lg-6 col-md-12">
+            <h3>Basic Dog
+            <br> TRAINING </h3>
+            <p>Whether or not you plan on competing in dog sports and events, it’s critical that all dogs receive basic
+                training, from how to walk well on leash to being comfortable with strangers.</p>
+            <button type="button" class="btn btn-secondary btn-lg">All Services</button>
+
+        </div>
+        <div class="basicdogimage col-lg-6 col-md-12">
+            <img src="images/black-dog.png" alt=" black dog image" class="img-responsive" width="100%">
+        </div>
+    </section>
+
+    <section>
+        
+    </section>
+</body>
+
+</html>

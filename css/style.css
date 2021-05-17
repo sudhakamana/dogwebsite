@@ -1,0 +1,134 @@
+.bg-image{
+    background-image: url(../images/image-2.jpg);
+    filter: brightness(70%);
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.price{
+    background-color: #ffc288;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.navigation{
+    padding: 0px;
+    margin: 0px;
+}
+.clean-dog{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+}
+.clean{
+    height: 200px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.bg-image {
+    text-align: center;
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.bg-image h2{
+    padding-top: 140px;
+}
+.heart img{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.text{
+    margin-top: 80px;
+}
+.smallpuppy{
+    height: 200px;
+    /*-70deg refers to left side rotate and +70deg or 70deg refers to right side bend*/
+    transform: rotate(-70deg);
+}
+.feature-dog{
+    padding: 4% 11%;
+    text-align: center;
+}
+.cat-image{
+    background-image: url(../images/bg-cat.jpg);
+    filter: brightness(70%);
+    margin: 0px;
+    height: 600px;
+    background-size: cover;
+}
+.cat-image h2{
+   color: black;
+   padding: 10% 0px 0px 11%;
+}
+.cat-image span{
+    font-size: 18px;
+    color: black;
+    word-spacing: 20px;
+}
+.vet{
+    line-height: 1.6;
+    padding: 0;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.vetclinic{
+    background-color: #f7f7f5;
+    margin:0px;
+    padding: 6% 11%;
+
+}
+.humanimage{
+    padding: 0px;
+    margin: 0px;
+}
+.humanimage img{
+   height: 500px;
+}
+.training{
+    background-color: #f7f7f5;
+}
+.training h4{
+    padding-top: 50%;
+}
+.trainingimage{
+    padding: 0px;
+    
+}
+.trainingimage img{
+    height: 518px;
+}
+.approach{
+    padding:0px;
+    padding-top: 23%;
+    padding-left: 10px;
+
+}
+.basicdog{
+    background-color: #f7f7f5;
+    padding:0;
+    margin:0px;
+
+}
+.basictraining p{
+    width: 70%;
+    margin-left: 20%;
+}
+.basictraining h3{
+    padding-left: 20%;
+    padding-top: 5%;
+
+}
+.basicdogimage{
+    padding:0px;
+}
+.basictraining button{
+    margin-left: 25%;
+}
+.basictraining{
+    padding: 0px;
+}
