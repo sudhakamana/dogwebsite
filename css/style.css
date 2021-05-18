@@ -132,3 +132,49 @@
 .basictraining{
     padding: 0px;
 }
+
+.focus{
+    background-color: black;
+    padding-bottom: 4%;
+}
+.rewarding{
+    color: white;
+    text-align: center;
+    padding-top: 6%;
+}
+.socialbtn{
+    color:white;
+    font-size: 22px;
+    
+}
+.socialpadding{
+    padding-left: 49%;
+}
+
+.needasweetheart{
+    padding: 0px;
+    margin:0px;
+    background-color: #e4efe7;
+}
+.sweetheart{
+    text-align: right;
+    padding-top: 20%;
+}
+.name {
+    width: 50%; 
+}
+.search{
+    margin-left: 50%;
+    margin-right: 10px;
+}
+.name:hover{
+    border: solid 1px black;
+}
+.foot{
+    background-color: black;
+    text-align: center;
+    color:white;
+    margin: 0px;
+    height: 50px;
+    padding-top: 10px;
+}
